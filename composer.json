@@ -12,6 +12,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
+    "php": "^7.0",
     "nerd-framework/nerd-contracts": "dev-master",
     "nerd-framework/nerd-service-provider": "dev-master",
     "nerd-framework/nerd-router": "dev-master"
