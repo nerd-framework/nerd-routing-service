@@ -57,12 +57,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nerd-framework/nerd-contracts.git",
-                "reference": "561fad3e54511fffba03eeafc28ea714c623d3ae"
+                "reference": "1c890e1092799e1dca643673c9371c27432b7c87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nerd-framework/nerd-contracts/zipball/561fad3e54511fffba03eeafc28ea714c623d3ae",
-                "reference": "561fad3e54511fffba03eeafc28ea714c623d3ae",
+                "url": "https://api.github.com/repos/nerd-framework/nerd-contracts/zipball/1c890e1092799e1dca643673c9371c27432b7c87",
+                "reference": "1c890e1092799e1dca643673c9371c27432b7c87",
                 "shasum": ""
             },
             "require-dev": {
@@ -87,7 +87,7 @@
                 }
             ],
             "description": "Framework contracts used in Nerd Framework",
-            "time": "2016-11-02 15:30:31"
+            "time": "2016-11-02 15:42:42"
         },
         {
             "name": "nerd-framework/nerd-router",
@@ -95,12 +95,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nerd-framework/nerd-router.git",
-                "reference": "03c0aa40265c225305ff229c36e2c09796149cf6"
+                "reference": "54227271f8e307b8afcbbbe9c31f6700b2df3011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nerd-framework/nerd-router/zipball/03c0aa40265c225305ff229c36e2c09796149cf6",
-                "reference": "03c0aa40265c225305ff229c36e2c09796149cf6",
+                "url": "https://api.github.com/repos/nerd-framework/nerd-router/zipball/54227271f8e307b8afcbbbe9c31f6700b2df3011",
+                "reference": "54227271f8e307b8afcbbbe9c31f6700b2df3011",
                 "shasum": ""
             },
             "require": {
@@ -128,7 +128,7 @@
                 }
             ],
             "description": "Router component for Nerd Framework",
-            "time": "2016-11-02 15:17:20"
+            "time": "2016-11-02 15:44:35"
         },
         {
             "name": "nerd-framework/nerd-service-provider",
