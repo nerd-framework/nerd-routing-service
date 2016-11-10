@@ -4,6 +4,7 @@ namespace Nerd\Framework\Providers;
 
 use Nerd\Framework\Routing\Router;
 use Nerd\Framework\Routing\RouterContract;
+use Nerd\Framework\Routing\RouterException;
 use Nerd\Framework\ServiceProvider;
 
 class RoutingServiceProvider extends ServiceProvider
@@ -21,6 +22,9 @@ class RoutingServiceProvider extends ServiceProvider
 
         $this->getApplication()->bind(RouterContract::class, $router);
         $routes = $this->getApplication()->config('router.source');
+        if (!function_exists($routes)) {
+            throw new RouterException("Configuration key \"router.source\" must point to routes source function");
+        }
         $routes($router);
     }
 
