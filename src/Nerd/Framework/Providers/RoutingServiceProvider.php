@@ -9,6 +9,8 @@ use Nerd\Framework\ServiceProvider;
 
 class RoutingServiceProvider extends ServiceProvider
 {
+    private $routeSourceKey = 'source.routes';
+
     public function register()
     {
         $router = new Router();
@@ -21,9 +23,9 @@ class RoutingServiceProvider extends ServiceProvider
         });
 
         $this->getApplication()->bind(RouterContract::class, $router);
-        $routes = $this->getApplication()->config('router.source');
+        $routes = $this->getApplication()->config($this->routeSourceKey);
         if (!function_exists($routes)) {
-            throw new RouterException("Configuration key \"router.source\" must point to routes source function");
+            throw new RouterException("Configuration key \"{$this->routeSourceKey}\" does not point to valid function");
         }
         $routes($router);
     }
