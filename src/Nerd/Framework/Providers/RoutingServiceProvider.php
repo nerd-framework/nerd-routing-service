@@ -9,7 +9,7 @@ use Nerd\Framework\ServiceProvider;
 
 class RoutingServiceProvider extends ServiceProvider
 {
-    private $routeSourceKey = 'source.routes';
+    private $routeSourceKey = 'sources.routes';
 
     public function register()
     {
