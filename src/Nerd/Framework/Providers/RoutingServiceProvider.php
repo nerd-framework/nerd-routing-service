@@ -11,16 +11,6 @@ class RoutingServiceProvider extends ServiceProvider
 {
     private $routeSourceKey = 'router.routes';
 
-    /**
-     * Boot the service provider.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        //
-    }
-
     public function register()
     {
         $router = new Router();
@@ -31,7 +21,6 @@ class RoutingServiceProvider extends ServiceProvider
 
         $router->setGlobalMiddlewareHandler(function ($action, $args, $next) {
             $args[] = $next;
-
             return $this->app->invoke($action, array_values($args));
         });
 

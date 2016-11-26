@@ -139,12 +139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nerd-framework/nerd-service-provider.git",
-                "reference": "a70b5a4a3fad4a8afc04ff02027d5fd678cd3864"
+                "reference": "409797c029c248f49b6bf8b71e3ac9cd6956903c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nerd-framework/nerd-service-provider/zipball/a70b5a4a3fad4a8afc04ff02027d5fd678cd3864",
-                "reference": "a70b5a4a3fad4a8afc04ff02027d5fd678cd3864",
+                "url": "https://api.github.com/repos/nerd-framework/nerd-service-provider/zipball/409797c029c248f49b6bf8b71e3ac9cd6956903c",
+                "reference": "409797c029c248f49b6bf8b71e3ac9cd6956903c",
                 "shasum": ""
             },
             "require": {
@@ -173,7 +173,7 @@
                 }
             ],
             "description": "Component used to create service providers",
-            "time": "2016-11-25 14:58:08"
+            "time": "2016-11-26 22:22:37"
         }
     ],
     "packages-dev": [
